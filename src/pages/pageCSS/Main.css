@@ -1,0 +1,161 @@
+.main-body {
+    margin: 0;
+    padding: 0;
+}
+
+#covid-logo {
+    width: 350px;
+    margin-top: 5px;
+}
+.main-header {
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    margin-bottom: 30px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    padding: 25px;
+    background-color: dodgerblue;
+}
+
+
+.flexbox-item h2 {
+    border-bottom: 3px solid dodgerblue;
+    text-align: center;
+    font-size: 25px;
+}
+
+
+
+.flexbox-item2 h1 {
+    text-align: center;
+    font-size: 36px;
+    border-bottom: 3px solid dodgerblue;
+}
+
+
+
+#rem {
+    font-size: 30px;
+}   
+
+.flexbox-container {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* background-color: gray;
+        */
+}
+
+.flexbox-container p {
+    font-size: 20px;
+}
+
+.flexbox-item {
+    /* width: 400px; */
+    margin: 10px;
+    background-color: white;
+    border-radius: 0px;
+    box-shadow: 0 0 10px 2px;
+    border-top: 10px solid rgb(139, 0, 23);
+    padding: 10px;
+}
+
+.flexbox-item1 {
+    width: 20%;
+    min-height: 300px;
+}
+
+.flexbox-item2 {
+    width: 50%;
+    min-height: 300px;
+    border: none;
+    box-shadow: none;
+    /* border: 1px solid gray;  */
+}
+
+
+
+.flexbox-item2 section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    
+}
+
+.form-btn-container{
+    display: flex;
+    width: 20%;
+    min-width: 100px;
+    justify-self: center;
+    text-decoration: none;
+}
+
+.form-start-btn{
+    width: 100%;
+    background-color: rgb(139, 0, 23);
+    color: white;
+    padding: 14px 25px;
+    text-decoration: none;
+    align-self: center;
+    border: 1px solid black;
+    box-shadow: 0 0 5px 2px black;
+    font-size: large;
+    
+  
+}
+
+.flexbox-item2 .form-start-btn:hover{
+    box-shadow: none;
+    cursor: pointer;
+}
+
+.imgs-container {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap-reverse;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.imgs {
+    /* width: 15%; */
+    margin: 5px;
+}
+
+.flexbox-item3 {
+    width: 20%;
+    min-height: 300px;
+}
+
+@media only screen and (max-width: 1199px) {
+    body {
+        justify-items: center;
+    }
+    .flexbox-container {
+        display: inline-flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .main-header {
+        text-align: center;
+    }
+    .flexbox-item1 {
+        order: 2;
+        width: 80%;
+    }
+    .flexbox-item2 {
+        order: 1;
+        width: 80%;
+        border-top: 10px solid rgb(139, 0, 23);
+    }
+    .flexbox-item3 {
+        order: 3;
+        width: 80%;
+    }
+}

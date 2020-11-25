@@ -1,0 +1,262 @@
+
+ 
+.questions-body{
+    display: flex;
+    justify-content: center;
+}
+  
+
+.q1-header {
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 50px;
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.container {
+    
+    border-radius: 10px;
+    box-shadow: 0 0 10px 2px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgb(139, 0, 23);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+    height: auto;
+    
+    max-width: 70%;
+  
+}
+
+#q1-plus-logo {
+    display: block;
+    width: 10%;
+    max-width: 150px;
+    position: absolute;
+   
+    
+}
+
+.q-container {
+    display: block;
+    flex-direction: column;
+    padding: 15px;
+    border-left-style: none;
+    border-right-style: none;
+    border-top-style: solid;
+    position: relative;
+    text-align: center;
+}
+
+.q-container ul {
+    display: inline-block;
+    text-align: left;
+}
+
+fieldset {
+    border: none;
+}
+
+.q-container h2 {
+    font-weight: 500;
+    font-size: 30px;
+}
+.q-container h3 {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+#q1-list {
+    font-size: 20px;
+}
+
+.ans {
+    font-size: 20px;
+}
+
+.nav-container {
+    display: flex;
+    margin: 30px 0;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.prev {
+    display: flex;
+    min-width: 8%;
+    height: 40px;
+    margin-right: 10px;
+    justify-content: center;
+    background-color: rgb(139, 0, 23);
+    align-items: center;
+    justify-items: center;
+    color: white;
+    padding: 14px 25px;
+    text-decoration: none;
+    border: 1px solid black;
+    box-shadow: 0 0 5px 2px black;
+    font-size: 110%;
+}
+
+.q1-next-link {
+    text-decoration: none;
+}
+.next {
+    display: flex;
+    min-width: 8%;
+    height: 40px;
+    justify-content: center;
+    background-color: rgb(139, 0, 23);
+    align-items: center;
+    justify-items: center;
+    color: white;
+    padding: 14px 25px;
+    text-decoration: none;
+    border: 1px solid black;
+    box-shadow: 0 0 5px 2px black;
+    font-size: 110%;
+}
+
+.req {
+    margin-left: 5px;
+    display: flex;
+    min-width: 8%;
+    height: 40px;
+    justify-content: center;
+    background-color: rgb(139, 0, 23);
+    align-items: center;
+    justify-items: center;
+    color: white;
+    padding: 14px 25px;
+    text-decoration: none;
+    border: 1px solid black;
+    box-shadow: 0 0 5px 2px black;
+    font-size: 110%;
+}
+.invalid {
+    display: none;
+    justify-content: center;
+    color: red;
+}
+
+.prev, .next, .req {
+    cursor: pointer;
+}
+
+.prev:hover, .next:hover, .req:hover {
+    box-shadow: none;
+}
+
+.submit-container {
+    display: none;
+    display: flex;
+    margin: 30px 0;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.submit-container button {
+    display: flex;
+    min-width: 8%;
+    height: 40px;
+    justify-content: center;
+    background-color: rgb(139, 0, 23);
+    align-items: center;
+    justify-items: center;
+    color: white;
+    padding: 14px 25px;
+    text-decoration: none;
+    border: 1px solid black;
+    box-shadow: 0 0 5px 2px black;
+    font-size: 110%;
+}
+
+.submit-container button:hover {
+    box-shadow: none;
+}
+
+.submit-container label {
+    align-self: center;
+    font-size: 18px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-weight: lighter;
+}
+
+
+
+#zip {
+    margin-top: 10px;
+    margin-right: 10px;
+    position: relative;
+    bottom: 5px;
+}
+
+@media only screen and (max-width: 615px) {
+    .submit-container a {
+        margin-top: 10px;
+    }
+}
+
+
+.form-flexbox-container {
+    display: inline-flexbox;
+    margin: 0 20%;
+    margin-top: 75px;
+}
+
+.noDisplay {
+    display: none;
+}
+
+.form-flexbox-container h1 {
+    font-size: 30px;
+    margin-top: 5px;
+}
+
+.form-flexbox-container h2 {
+    padding-top: 10px;
+}
+
+.form-flexbox-container p, ul {
+    font-size: 20px;
+}
+
+.form-flexbox-container #home {
+    width: 100px;
+}
+
+.form-flexbox-container #phone {
+    width: 80px;
+}
+
+.form-flexbox-container .sidenote {
+    border-top: 2px solid dodgerblue;
+}
+
+@media only screen and (max-width: 414px) {
+    .form-flexbox-container img {
+        position: relative;
+        left: 25%;
+    }
+
+    .form-flexbox-container {
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 361px) {
+    .form-flexbox-container img {
+        position: relative;
+        left: 0;
+    }
+
+    .form-flexbox-container {
+        justify-content: center;
+    }
+} 
